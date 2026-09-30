@@ -118,7 +118,7 @@ export default function Footer() {
                   rel="noopener noreferrer"
                   className="text-xs text-amber-200/90 hover:text-white transition-colors"
                 >
-                  @nexus_gecm
+                  @glad_.official
                 </a>
               </div>
             </div>

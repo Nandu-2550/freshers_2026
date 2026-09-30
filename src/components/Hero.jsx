@@ -48,7 +48,7 @@ export default function Hero() {
   return (
     <section
       id="hero"
-      className="relative min-h-[92vh] sm:min-h-screen flex flex-col justify-center items-center pt-20 sm:pt-28 pb-12 sm:pb-16 px-4 sm:px-6 lg:px-8 text-center overflow-hidden"
+      className="relative min-h-[90vh] sm:min-h-screen flex flex-col justify-center items-center pt-10 sm:pt-16 pb-12 sm:pb-16 px-4 sm:px-6 lg:px-8 text-center overflow-hidden"
     >
       {/* Ambient Gold Radial Spotlight & Glows */}
       <div className="absolute top-1/4 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[340px] sm:w-[750px] h-[340px] sm:h-[450px] bg-gradient-to-b from-[#d4af37]/20 via-[#f59e0b]/10 to-transparent blur-[100px] sm:blur-[120px] pointer-events-none rounded-full" />

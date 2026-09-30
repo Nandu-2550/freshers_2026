@@ -1,6 +1,5 @@
 import React, { useState, useEffect } from 'react';
 import EntryGate from './components/EntryGate';
-import Navbar from './components/Navbar';
 import ParticleBackground from './components/ParticleBackground';
 import Hero from './components/Hero';
 import EventDetails from './components/EventDetails';
@@ -32,9 +31,6 @@ export default function App() {
 
       {/* Dynamic Stardust & Ambient Gold Particles Canvas */}
       <ParticleBackground />
-
-      {/* Floating Centered Glass Navigation Dock */}
-      {isGateOpen && <Navbar />}
 
       {/* Main Content Layout - Mobile First */}
       <main className={`relative z-10 flex flex-col w-full transition-opacity duration-700 ${

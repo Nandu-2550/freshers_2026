@@ -149,7 +149,7 @@ export default function RsvpSection() {
       {/* Form Container - Mobile First Card */}
       <div className="relative rounded-2xl sm:rounded-3xl p-5 sm:p-8 glass-card border border-[#d4af37]/30 shadow-[0_0_40px_rgba(212,175,55,0.15)] overflow-hidden">
         <form onSubmit={handleSubmit} className="space-y-4 sm:space-y-5">
-          
+
           {/* 1. Full Name */}
           <div>
             <label className="block text-xs font-bold uppercase tracking-wider text-gray-300 mb-1.5">
@@ -164,10 +164,9 @@ export default function RsvpSection() {
                 name="fullName"
                 value={formData.fullName}
                 onChange={handleChange}
-                placeholder="e.g. Rahul Sharma"
-                className={`w-full pl-10 pr-4 py-3.5 rounded-xl glass-input text-sm text-white placeholder-gray-500 transition-all ${
-                  errors.fullName ? 'border-red-500' : ''
-                }`}
+                placeholder="e.g. Nandeesh Gavayi"
+                className={`w-full pl-10 pr-4 py-3.5 rounded-xl glass-input text-sm text-white placeholder-gray-500 transition-all ${errors.fullName ? 'border-red-500' : ''
+                  }`}
               />
             </div>
             {errors.fullName && (
@@ -192,10 +191,9 @@ export default function RsvpSection() {
                 name="phone"
                 value={formData.phone}
                 onChange={handleChange}
-                placeholder="e.g. 9880012345"
-                className={`w-full pl-10 pr-4 py-3.5 rounded-xl glass-input text-sm text-white placeholder-gray-500 transition-all ${
-                  errors.phone ? 'border-red-500' : ''
-                }`}
+                placeholder="e.g. 8123797004"
+                className={`w-full pl-10 pr-4 py-3.5 rounded-xl glass-input text-sm text-white placeholder-gray-500 transition-all ${errors.phone ? 'border-red-500' : ''
+                  }`}
               />
             </div>
             {errors.phone && (
