@@ -113,7 +113,7 @@ export default function Footer() {
                   <line x1="17.5" x2="17.51" y1="6.5" y2="6.5"></line>
                 </svg>
                 <a
-                  href="https://instagram.com"
+                  href="https://www.instagram.com/glad_.official/"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="text-xs text-amber-200/90 hover:text-white transition-colors"
